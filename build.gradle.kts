@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.github.ljwx"
-version = "1.0.0"
+version = "0.0.1"
 
 catalog {
     versionCatalog {
