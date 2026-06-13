@@ -6,6 +6,7 @@ coreKtx = "1.6.0"
 coroutines = "1.6.4"
 startup = "1.0.0"
 
+jdcrDevBase = "0.3.3-SNAPSHOT"
 jdcrLog = "1.3.1-SNAPSHOT"
 
 [libraries]
@@ -13,6 +14,7 @@ androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = 
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 androidx-startup = { group = "androidx.startup", name = "startup-runtime", version.ref = "startup" }
+jdcr-dev-base = { group = "com.github.ljwx", name = "JdcrDevBase", version.ref="jdcrDevBase" }
 jdcr-log = { group = "com.github.ljwx.jdcrlog", name = "jdcrlog-android", version.ref = "jdcrLog" }
 
 [plugins]
