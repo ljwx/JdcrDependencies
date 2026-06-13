@@ -32,10 +32,10 @@ androidx-startup = { group = "androidx.startup", name = "startup-runtime", versi
 ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktorClient" }
 ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktorClient" }
 ktor-client-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktorClient" }
-ktor-client-serialization = { group = "io.ktor", name = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktorClient" }
+ktor-client-serialization = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktorClient" }
 ktor-client-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktorClient" }
 ktor-client-auth = { group = "io.ktor", name = "ktor-client-auth", version.ref = "ktorClient" }
-ktor-client-encoding = { group = "io.ktor", name = "io.ktor:ktor-client-encoding", version.ref = "ktorClient" }
+ktor-client-encoding = { group = "io.ktor", name = "ktor-client-encoding", version.ref = "ktorClient" }
 androidx-camera = { group = "androidx.camera", name = "camera-camera2", version.ref = "androidxCamera" }
 androidx-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "androidxCamera" }
 androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "androidxCamera" }
