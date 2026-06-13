@@ -7,6 +7,7 @@ androidxLifecycle = "2.5.1"
 coreKtx = "1.6.0"
 coroutines = "1.6.4"
 startup = "1.0.0"
+androidxDatastore = "1.0.0"
 
 ktorClient = "2.3.12"
 androidxCamera = "1.2.3"
@@ -32,6 +33,7 @@ androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = 
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 androidx-startup = { group = "androidx.startup", name = "startup-runtime", version.ref = "startup" }
+androidx-datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "androidxDatastore" }
 
 ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktorClient" }
 ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktorClient" }
