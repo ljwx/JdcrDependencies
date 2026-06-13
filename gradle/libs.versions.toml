@@ -36,6 +36,7 @@ ktor-client-serialization = { group = "io.ktor", name = "ktor-serialization-kotl
 ktor-client-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktorClient" }
 ktor-client-auth = { group = "io.ktor", name = "ktor-client-auth", version.ref = "ktorClient" }
 ktor-client-encoding = { group = "io.ktor", name = "ktor-client-encoding", version.ref = "ktorClient" }
+ktor-client-websockets = { group = "io.ktor", name = "ktor-client-websockets", version.ref = "ktorClient" }
 androidx-camera = { group = "androidx.camera", name = "camera-camera2", version.ref = "androidxCamera" }
 androidx-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "androidxCamera" }
 androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "androidxCamera" }
