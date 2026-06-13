@@ -23,7 +23,7 @@ jdcrPermission = "0.9.3-SNAPSHOT"
 jdcrCameraBase = "1.2.8-SNAPSHOT"
 jdcrCameraGesture = "1.2.8-SNAPSHOT"
 jdcrCameraQRCode = "1.2.8-SNAPSHOT"
-jdcrBluetooth = "0.9.7-SNAPSHOT"
+jdcrBluetooth = "1.0.0-SNAPSHOT"
 jdcrFile = "0.3.0-SNAPSHOT"
 
 [libraries]
