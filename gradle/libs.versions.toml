@@ -6,6 +6,9 @@ coreKtx = "1.6.0"
 coroutines = "1.6.4"
 startup = "1.0.0"
 
+ktorClient = "2.3.12"
+androidxCamera = "1.2.3"
+androidExoPlayer = "2.16.0"
 sqldelight = "1.5.5"
 
 jdcrDevBase = "0.3.5-SNAPSHOT"
@@ -26,10 +29,21 @@ kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-cor
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 androidx-startup = { group = "androidx.startup", name = "startup-runtime", version.ref = "startup" }
 
+ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktorClient" }
+ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktorClient" }
+ktor-client-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktorClient" }
+ktor-client-serialization = { group = "io.ktor", name = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktorClient" }
+ktor-client-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktorClient" }
+ktor-client-auth = { group = "io.ktor", name = "ktor-client-auth", version.ref = "ktorClient" }
+ktor-client-encoding = { group = "io.ktor", name = "io.ktor:ktor-client-encoding", version.ref = "ktorClient" }
+androidx-camera = { group = "androidx.camera", name = "camera-camera2", version.ref = "androidxCamera" }
+androidx-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "androidxCamera" }
+androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "androidxCamera" }
+android-exoplayer = { group = "com.google.android.exoplayer", name = "exoplayer", version.ref = "androidExoPlayer" }
 sqldelight-runtime = { group = "com.squareup.sqldelight", name = "runtime", version.ref = "sqldelight" }
 sqldelight-android-driver = { group = "com.squareup.sqldelight", name = "android-driver", version.ref = "sqldelight" }
 
-jdcr-dev-base = { group = "com.github.ljwx", name = "JdcrDevBase", version.ref="jdcrDevBase" }
+jdcr-dev-base = { group = "com.github.ljwx", name = "JdcrDevBase", version.ref = "jdcrDevBase" }
 jdcr-log = { group = "com.github.ljwx.jdcrlog", name = "jdcrlog-android", version.ref = "jdcrLog" }
 jdcr-database = { group = "com.github.ljwx", name = "JdcrDatabase", version.ref = "jdcrDatabase" }
 jdcr-http = { group = "com.github.ljwx", name = "jdcrhttp", version.ref = "jdcrHttp" }
