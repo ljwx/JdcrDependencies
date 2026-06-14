@@ -14,7 +14,7 @@ androidxCamera = "1.2.3"
 androidExoPlayer = "2.16.0"
 sqldelight = "1.5.5"
 
-jdcrDevBase = "0.3.9-SNAPSHOT"
+jdcrDevBase = "0.4.0-SNAPSHOT"
 jdcrLog = "1.3.5-SNAPSHOT"
 jdcrDatabase = "0.3.2-SNAPSHOT"
 jdcrHttp = "0.4.2-SNAPSHOT"
@@ -23,7 +23,7 @@ jdcrPermission = "0.9.3-SNAPSHOT"
 jdcrCameraBase = "1.2.8-SNAPSHOT"
 jdcrCameraGesture = "1.2.8-SNAPSHOT"
 jdcrCameraQRCode = "1.2.8-SNAPSHOT"
-jdcrBluetooth = "1.0.0-SNAPSHOT"
+jdcrBluetooth = "1.0.2-SNAPSHOT"
 jdcrFile = "0.3.0-SNAPSHOT"
 
 [libraries]
