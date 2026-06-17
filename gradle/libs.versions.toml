@@ -9,6 +9,8 @@ coroutines = "1.6.4"
 startup = "1.0.0"
 androidxDatastore = "1.0.0"
 
+composeBom = "2024.09.00"
+
 ktorClient = "2.3.12"
 androidxCamera = "1.2.3"
 androidExoPlayer = "2.16.0"
@@ -36,6 +38,10 @@ androidx-startup = { group = "androidx.startup", name = "startup-runtime", versi
 androidx-datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "androidxDatastore" }
 # App进程生命周期库
 androidx-lifecycle-process = { group = "androidx.lifecycle", name = "lifecycle-process", version.ref = "androidxLifecycle" }
+
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
 
 ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktorClient" }
 ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktorClient" }
