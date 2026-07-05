@@ -14,7 +14,7 @@ androidxCamera = "1.2.3"
 androidExoPlayer = "2.16.0"
 sqldelight = "1.5.5"
 
-jdcrDevBase = "0.4.2-SNAPSHOT"
+jdcrDevBase = "0.4.4-SNAPSHOT"
 jdcrLog = "1.3.5-SNAPSHOT"
 jdcrDatabase = "0.3.5-SNAPSHOT"
 jdcrHttp = "0.4.2-SNAPSHOT"
