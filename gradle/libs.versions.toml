@@ -14,16 +14,17 @@ androidxCamera = "1.2.3"
 androidExoPlayer = "2.16.0"
 sqldelight = "1.5.5"
 
-jdcrDevBase = "0.4.4-SNAPSHOT"
+jdcrDevBase = "0.4.5-SNAPSHOT"
 jdcrLog = "1.3.5-SNAPSHOT"
 jdcrDatabase = "0.3.5-SNAPSHOT"
-jdcrHttp = "0.4.2-SNAPSHOT"
-jdcrMediaPlayer = "0.4.6-SNAPSHOT"
+jdcrHttp = "0.5.9-SNAPSHOT"
+jdcrMediaPlayer = "0.5.0-SNAPSHOT"
 jdcrPermission = "0.9.3-SNAPSHOT"
 jdcrCameraBase = "1.2.8-SNAPSHOT"
 jdcrCameraGesture = "1.2.8-SNAPSHOT"
 jdcrCameraQRCode = "1.2.8-SNAPSHOT"
 jdcrBluetooth = "1.0.2-SNAPSHOT"
+jdcrAudioRecord = "0.5.5-SNAPSHOT"
 jdcrFile = "0.3.0-SNAPSHOT"
 
 [libraries]
@@ -62,6 +63,7 @@ jdcr-camera-base = { group = "com.github.ljwx.CameraCommon", name = "camerabase"
 jdcr-camera-gesture = { group = "com.github.ljwx.CameraCommon", name = "cameragesture", version.ref = "jdcrCameraGesture" }
 jdcr-camera-qrcode = { group = "com.github.ljwx.CameraCommon", name = "qrcode", version.ref = "jdcrCameraQRCode" }
 jdcr-bluetooth = { group = "com.github.ljwx", name = "jdcrbluetooth", version.ref = "jdcrBluetooth" }
+jdcr-audio-record = { group = "com.github.ljwx", name = "JdcrAudioRecord", version.ref = "jdcrAudioRecord" }
 jdcr-file = { group = "com.github.ljwx", name = "JdcrFile", version.ref = "jdcrFile" }
 
 [plugins]
