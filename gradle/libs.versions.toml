@@ -27,7 +27,7 @@ jdcrBluetooth = "1.0.2-SNAPSHOT"
 jdcrAudioRecord = "0.5.5-SNAPSHOT"
 jdcrFile = "0.3.0-SNAPSHOT"
 
-jdcrNavigation = "0.5.0-SNAPSHOT"
+jdcrNavigation = "0.5.1-SNAPSHOT"
 
 [libraries]
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppcompat" }
