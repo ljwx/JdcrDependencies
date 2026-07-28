@@ -25,7 +25,7 @@ jdcrCameraGesture = "1.2.8-SNAPSHOT"
 jdcrCameraQRCode = "1.2.8-SNAPSHOT"
 jdcrBluetooth = "1.0.2-SNAPSHOT"
 jdcrAudioRecord = "0.5.5-SNAPSHOT"
-jdcrFile = "0.3.0-SNAPSHOT"
+jdcrFile = "0.3.1-SNAPSHOT"
 
 jdcrNavigation = "0.5.1-SNAPSHOT"
 
